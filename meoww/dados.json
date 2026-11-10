@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "titulo": "Gladiador",
+      "categoria": "Filme",
+      "plataforma": "HBO MAX",
+      "nota": 10,
+      "status": "assistido",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMhW_FalNKBE8218UrlKPclYSxqJVGHPc1M95sAdVv2g&s=10"
+    },
+    {
+      "id": 2,
+      "titulo": "Gigantes de aço",
+      "categoria": "Filme",
+      "plataforma": "HBO MAX",
+      "nota": 10,
+      "status": "assistido",
+      "capa": "https://play-lh.googleusercontent.com/N77PUO_MDFZ9Yc3pWPEklRn4Sy0MmeXu1Tge_B6qjMUoOBsdMDqSxNfcS7onkExyCrs"
+    },
+    {
+      "id": 3,
+      "titulo": "Elden Ring",
+      "categoria": "Jogos",
+      "plataforma": "PC/CONSOLE",
+      "nota": 9.5,
+      "status": "assistido",
+      "capa": "https://www.europanet.com.br/image_gen/resizeimg.php?cod_produto=100960"
+    },
+    {
+      "id": 4,
+      "titulo": "Caçadores de Trolls",
+      "categoria": "Série",
+      "plataforma": "Netflix",
+      "nota": 7,
+      "status": "assistido",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvPP0iE5gvEix0c3tE7jZ-2KJvX8JYgHMttnHkXGKqqw&s=10"
+    },
+    {
+        "id": 5,
+        "titulo": "Hollow Knight",
+        "categoria": "Jogos",
+        "plataforma": "PC/CONSOLE",
+        "nota": 10,
+        "status": "jogado",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMGIyYmJmZDgtOWQ1Ny00NDFiLTk2OTgtM2Q2ZWQ4OWIxZjg3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Cacadores de bugs",
+        "categoria": "Série",
+        "plataforma": "Netflix",
+        "nota": 9.5,
+        "status": "assistido",
+        "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ7Vhv31uERYQWN2VsSt5qhONlpJA5WhROAEPoxjtjcxe3DtxSLB97ZxU&s=10"
+    }
+
+  ]
+  
+
+  

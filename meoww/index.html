@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Mídias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hub de Mídias</h1>
+        <p>Gerenciador de Jogos, Filmes e Séries</p>
+    </header>
+    
+    <main class="container">
+        <!-- Seção do Formulário -->
+        <section class="painel-cadastro">
+            <h2>Adicionar à Lista de Mídia</h2>
+            <form action="" id="form-midia">
+                <input type="text" id="titulo" placeholder="Ex: Nine Souls, Hollow Knight" required>
+                
+                <!-- CAMPO DE IMAGEM ADICIONADO AQUI -->
+                <input type="text" id="imagemUrl" placeholder="Cole a URL da imagem da capa (Ex: https://...)" required>
+
+                <select id="categoria" required>
+                    <option value="">Categoria</option>
+                    <option value="Jogos">Jogos</option>
+                    <option value="Filmes">Filmes</option>
+                    <option value="Séries">Séries</option>
+                </select>
+                <input type="text" id="plataforma" placeholder="Ex: Netflix, PC" required>
+                <input type="number" id="nota" step="0.1" min="0" max="10" placeholder="Nota: 0 a 10.0" required>
+                <button type="submit" class="btn-salvar">Adicionar</button>
+            </form>
+        </section>
+
+        <!-- Seção do Catálogo -->
+        <section class="painel-catalogo">
+            <div class="filtros">
+                <button>Todos</button>
+                <button>Jogos</button>
+                <button>Séries</button>
+                <button>Filmes</button>
+            </div>
+            <div id="catalogo-grid" class="grid">
+                <!-- Os cards serão exibidos aqui -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
